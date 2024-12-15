@@ -30,7 +30,9 @@ const Dashboard = () => {
   return (
     <div className="min-h-screen bg-background max-w-7xl mx-auto p-8 my-8">
       <Header onCreateSource={handleCreateContentSource} />
+      {/* BOILER PLATE CODE THAT CAN BE REMOVED */}
       <DashboardTabs />
+
       <Button onClick={handleConnectToGmail} className="mt-4" variant="outline">
         <svg
           className="mr-2 h-4 w-4"
