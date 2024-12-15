@@ -1,0 +1,7 @@
+examples-python
+__pycache__
+.pytest_cache
+venv
+.env
+.vscode
+poetry.lock
