@@ -20,6 +20,9 @@ async def main():
     workflow_id = f"{int(time.time() * 1000)}-EmailSendWorkflow"
     run_id =await client.schedule_workflow(
         workflow_name="EmailSendWorkflow",
+        input={
+            entity_id=""
+        },
         workflow_id=workflow_id
     )
 
