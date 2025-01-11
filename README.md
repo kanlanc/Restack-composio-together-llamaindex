@@ -59,6 +59,8 @@ TBD
    poetry shell
    ```
 
+   Go to schedule_workflow file and add your composio entity id to the input before your run the next step!
+
    ```bash
    poetry run workflow
    ```
